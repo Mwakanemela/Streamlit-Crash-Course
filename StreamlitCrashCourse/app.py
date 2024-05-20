@@ -14,5 +14,14 @@ st.latex("\int")
 st.json("""{"data": "This is streamlit json"}""")
 st.code("""
 print("Can also write code with streamlit")
+name = Mwakanemela kayange
 """, language="python", line_numbers=True)
+
+
+# Error Element
+st.success("This is a success")
+st.error("This is error")
+st.warning("Warning")
+st.exception("Exception")
+
 #sk-proj-qMHVSf8fGKKdPxxUw1kGT3BlbkFJAqw74CBx20CZ9RGNqOIV
